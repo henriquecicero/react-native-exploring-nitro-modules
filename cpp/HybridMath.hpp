@@ -1,6 +1,6 @@
 #include "HybridMathSpec.hpp"
 
-namespace margelo::nitro::math {
+namespace margelo::nitro::exploringnitromodules {
   class HybridMath: public HybridMathSpec {
   public:
     HybridMath(): HybridObject(TAG) {}

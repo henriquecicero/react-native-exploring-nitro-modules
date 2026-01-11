@@ -33,6 +33,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "lint-ci": "eslint \"**/*.{js,ts,tsx}\" -f @jamesacarr/github-actions",
     "typescript": "tsc",
+    "typescript:watch": "tsc --watch",
     "specs": "tsc --noEmit false && nitrogen --logLevel=\"debug\""
   },
   "keywords": [
