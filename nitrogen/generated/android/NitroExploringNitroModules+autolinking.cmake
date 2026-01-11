@@ -33,7 +33,6 @@ target_sources(
   # Autolinking Setup
   ../nitrogen/generated/android/NitroExploringNitroModulesOnLoad.cpp
   # Shared Nitrogen C++ sources
-  ../nitrogen/generated/shared/c++/HybridLogbookSpec.cpp
   ../nitrogen/generated/shared/c++/HybridMathSpec.cpp
   # Android-specific Nitrogen C++ sources
   
