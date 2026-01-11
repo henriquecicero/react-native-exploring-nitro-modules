@@ -20,15 +20,19 @@ function App() {
 
 function AppContent() {
   return (
-    <View style={styles.container}>
-      <Text>AppContent</Text>
-    </View>
+    <SafeAreaProvider>
+      <View style={styles.container}>
+        <Text>App</Text>
+      </View>
+    </SafeAreaProvider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 
