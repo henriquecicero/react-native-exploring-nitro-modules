@@ -8,16 +8,10 @@
 #pragma once
 
 // Forward declarations of C++ defined types
-// Forward declaration of `HybridLogbookSpec` to properly resolve imports.
-namespace margelo::nitro::logbook { class HybridLogbookSpec; }
+
 
 // Include C++ defined types
-#include "HybridLogbookSpec.hpp"
-#include <NitroModules/ArrayBuffer.hpp>
-#include <NitroModules/Result.hpp>
-#include <exception>
-#include <memory>
-#include <string>
+
 
 // C++ helpers for Swift
 #include "NitroLogbook-Swift-Cxx-Bridge.hpp"
@@ -29,8 +23,7 @@ namespace margelo::nitro::logbook { class HybridLogbookSpec; }
 #include <NitroModules/DateToChronoDate.hpp>
 
 // Forward declarations of Swift defined types
-// Forward declaration of `HybridLogbookSpec_cxx` to properly resolve imports.
-namespace NitroLogbook { class HybridLogbookSpec_cxx; }
+
 
 // Include Swift defined types
 #if __has_include("NitroLogbook-Swift.h")

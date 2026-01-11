@@ -18,6 +18,7 @@ namespace margelo::nitro::logbook {
       prototype.registerHybridMethod("getSamplesCount", &HybridLogbookSpec::getSamplesCount);
       prototype.registerHybridMethod("getConcatString", &HybridLogbookSpec::getConcatString);
       prototype.registerHybridMethod("getConcatStringZeroCopy", &HybridLogbookSpec::getConcatStringZeroCopy);
+      prototype.registerHybridMethod("add", &HybridLogbookSpec::add);
     });
   }
 

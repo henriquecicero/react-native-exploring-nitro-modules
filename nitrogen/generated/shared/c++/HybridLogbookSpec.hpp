@@ -53,6 +53,7 @@ namespace margelo::nitro::logbook {
       virtual double getSamplesCount(const std::string& input) = 0;
       virtual std::string getConcatString(const std::string& input) = 0;
       virtual std::shared_ptr<ArrayBuffer> getConcatStringZeroCopy(const std::string& input) = 0;
+      virtual double add(double a, double b) = 0;
 
     protected:
       // Hybrid Setup
