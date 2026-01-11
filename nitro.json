@@ -1,0 +1,19 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "exploringnitromodules"
+  ],
+  "ios": {
+    "iosModuleName": "NitroExploringNitroModules"
+  },
+  "android": {
+    "androidNamespace": [
+      "exploringnitromodules"
+    ],
+    "androidCxxLibName": "NitroExploringNitroModules"
+  },
+  "autolinking": {},
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
