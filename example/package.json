@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "19.2.0",
     "react-native": "0.83.1",
+    "react-native-exploring-nitro-modules": "file:..",
+    "react-native-nitro-modules": "*",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {
