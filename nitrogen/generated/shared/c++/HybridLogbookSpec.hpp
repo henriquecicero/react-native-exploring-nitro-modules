@@ -18,7 +18,7 @@
 #include <string>
 #include <NitroModules/ArrayBuffer.hpp>
 
-namespace margelo::nitro::exploringnitromodules {
+namespace margelo::nitro::logbook {
 
   using namespace margelo::nitro;
 
@@ -63,4 +63,4 @@ namespace margelo::nitro::exploringnitromodules {
       static constexpr auto TAG = "Logbook";
   };
 
-} // namespace margelo::nitro::exploringnitromodules
+} // namespace margelo::nitro::logbook

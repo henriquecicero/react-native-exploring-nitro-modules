@@ -7,7 +7,7 @@
 
 #include "HybridLogbookSpec.hpp"
 
-namespace margelo::nitro::exploringnitromodules {
+namespace margelo::nitro::logbook {
 
   void HybridLogbookSpec::loadHybridMethods() {
     // load base methods/properties
@@ -21,4 +21,4 @@ namespace margelo::nitro::exploringnitromodules {
     });
   }
 
-} // namespace margelo::nitro::exploringnitromodules
+} // namespace margelo::nitro::logbook
